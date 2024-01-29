@@ -1,0 +1,112 @@
+@charset "ISO-8859-1";
+.pl-1{ padding-left : 8.3%; }
+.pl-2{ padding-left : 16.6%; }
+.pl-4{ padding-left : 33.3%; }
+.pl-6{ padding-left : 49.8%; }
+.pl-8{ padding-left : 66.4%; }
+.pl-10{ padding-left : 83%; }
+.pointer{
+    cursor: pointer;
+}
+.search-bar{
+    padding: 10px 15px;
+}
+.list-group-item{
+        margin-bottom: 5px;
+        border:none!important;
+        padding-left: 15%;
+        cursor: pointer;
+}
+.list-group-item:hover {
+        background: lightgray;
+        border-radius: 20px;
+}
+
+.list-group-item-2 {
+    position: relative;
+    display: block;
+    margin-bottom: -1px;
+    background-color: #fff;
+}
+.label-group-item{
+    position: relative;
+    display: block;
+    margin-bottom: -1px;
+    background-color: #fff;
+    margin: 0% 0%;
+    cursor: pointer;
+    padding: 3% 4%;
+    border: 1px solid lightgray;
+}
+.activeDiv{
+        background: lightgray;
+        border-radius: 20px!important;
+}
+.create-contact-btn{
+    border-radius: 14px !important;
+    padding: 8px 17%;
+}
+.custom-thumbnail {
+    height : 40px;
+    width : 40px; 
+    border-radius : 50% 50%;
+}
+.contact-cell{
+    vertical-align: middle!important;
+}
+.profileImage {
+    max-height : 100px;
+    max-width : 100px;
+}
+.rotater {
+    transition: all 0.3s ease;
+    border: 0.0625em solid black;
+    border-radius: 3.75em;
+}
+.trash-icon{
+    margin: 7% 10%;
+padding: 6% 5%;
+}
+.dropdown-menu{
+    left : unset;
+    right : 0;
+}
+
+.popup-form .form-control{
+    border: none!important;
+    box-shadow: none;
+    border-bottom: 1px solid #e5e5e5!important;
+    border-radius: 0;
+}
+.popup-form .form-control:focus{
+    border: none!important;
+    box-shadow: none;
+    border-bottom: 1px solid blue!important;
+    border-radius: 0;
+}
+
+.label-glyphicon{
+    font-size: 70%;
+    margin-right : 5px;
+    color: #a664d6;
+}
+
+.active-label{
+    background : lightgray;
+}
+
+/************** index.html ***************/
+.login-form{
+    padding: 2% 5%;
+    border: 1px solid lightgray;
+    float: none;
+    margin: 10% auto;
+}
+#registration{
+    display : none;
+}
+.custom-alert {
+    display : none;
+}
+
+
