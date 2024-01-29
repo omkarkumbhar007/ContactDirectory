@@ -10,7 +10,7 @@ int uid=(Integer)session.getAttribute("u_id");
 
 %>
 <% 
-//Get the list of users from the DAO
+//Get the list of users from the following
 System.out.println("In Dashboard.jsp");
 contactDao contact_dao = new contactDao();
 contact_dao.setU_id(uid);
